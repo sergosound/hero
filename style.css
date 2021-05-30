@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+h1 {
+    font-size: 50px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.counter {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.counter_success {
+    color: #2cfc2c;
+    font-size: 22px;
+}
+.counter_failed {
+    color: #ff3030;
+    font-size: 22px;
+}
+.button {
+    padding: 6px 14px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: #2cfc2c;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;
+}
+.arrows {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 350px;
+    margin-top: 50px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    color: white;
+    font-size: 36px;
+    background-color: #ff3030;
+}
+.arrow_allowed {
+    background-color: #2cfc2c;
+}
